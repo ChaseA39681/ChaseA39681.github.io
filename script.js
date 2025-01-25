@@ -14,7 +14,7 @@
     var region = location.hash.toString() || $('.main-menu a:first').attr('href');
     
     // Now show the region specified in the URL hash
-    $(region).show();
+    $(USA).show();
     
     // Highlight the menu link associated with this region by adding the .active CSS class
     $('.main-menu a[href="'+ region +'"]').addClass('active'); 
